@@ -3,7 +3,7 @@ import React from "react";
 const Submenu = ({text, children}) => {
   return (
     <div className="dropdown pa3">
-      <a href="#" class="dropbtn">
+      <a href="#" className="dropbtn">
         {text}
       </a>
       <div className="dropdown-content">

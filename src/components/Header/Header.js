@@ -5,10 +5,11 @@ import LogoImg from "../../assets/img/logo.png";
 import Menu from "./components/Menu";
 import MenuItem from "./components/Menu/MenuItem";
 import Submenu from "./components/Menu/Submenu";
+import './header.css'
 
 const Header = () => {
   return (
-    <div className="w-100 pt3 pr5 pl5 flex flex-row">
+    <div className="header w-100 pt3 pb3 pr5 pl5 flex flex-row">
       <Logo logo={LogoImg} width="auto" height="100%" />
 
       <Menu>
